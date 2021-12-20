@@ -1,0 +1,95 @@
+.graph {
+  $graph-width: 100%;
+  $graph-height: 140px;
+
+  position: relative;
+  margin: 0px;
+  width: 49.5%;
+  background-color: #000;
+
+  border-top: 1px solid #444;
+
+  .graph-name {
+    position: absolute;
+    text-align: left;
+    margin: 0px;
+    // padding: 1px 0px 0px 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    // font-weight: 600;
+    color: #888;
+
+    .ticker {
+      color: white;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .highlight {
+      background-color: blue;
+      color: white;
+    }
+  }
+
+  .graph-details-price-high {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px 5px 1px 0px;
+    font-size: 13px;
+    text-transform: uppercase;
+    // font-weight: 600;
+    color: white;
+  }
+
+  .graph-details-price-low {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    margin: 0px;
+    padding: 0px 5px 1px 0px;
+    font-size: 13px;
+    text-transform: uppercase;
+    // font-weight: 600;
+    color: white;
+  }
+
+  .graph-details-price-current {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    text-align: right;
+    margin: 0px;
+    padding: 0px 5px 1px 0px;
+    font-size: 13px;
+    text-transform: uppercase;
+    // font-weight: 600;
+    color: rgb(95, 95, 95);
+  }
+
+  .graph-holder {
+    width: $graph-width;
+    height: $graph-height;
+
+    .VictoryContainer {
+      svg {
+        pointer-events: none !important;
+      }
+    }
+  }
+}
+
+
+
+.graph:nth-child(2n) {
+  border-left: 1px solid #444;
+}
+
+.graph:last-child {
+  border-bottom: 1px solid #444;
+}
+.graph:nth-last-child(2) {
+  border-bottom: 1px solid #444;
+}
