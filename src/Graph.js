@@ -46,7 +46,6 @@ const Graph = ({ticker, interval, highlight=null}) => {
       });
 
       let i = {
-        first: formatPrice(response.data.prices[0][1]),
         current: formatPrice(response.data.prices[response.data.prices.length - 1][1]),
         highestPrice: formatPrice(highestPrice),
         lowestPrice: formatPrice(lowestPrice),
@@ -70,9 +69,8 @@ const Graph = ({ticker, interval, highlight=null}) => {
   return (
     <div className="graph">
       <p className="graph-name">
-        <span className={"ticker " + (highlight ? 'highlight' : '')}>{ticker}</span>
-        {' ' + info?.current}<br/>
-        {' H ' + info?.highestPrice + ' • L ' + info?.lowestPrice}
+        <span className={"ticker " + (highlight ? 'highlight' : '')}>{ticker}</span>{' ' + info?.current}<br/>
+        {' H ' + info?.highestPrice + ' L ' + info?.lowestPrice}
       </p>
       <p className="graph-details">
         {'M ' + info?.currentMC}<br/>
