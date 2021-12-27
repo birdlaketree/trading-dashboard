@@ -85,12 +85,8 @@ const App = () => {
           <Graph ticker={'serum'} interval={dataInterval} />
           <Graph ticker={'samoyedcoin'} interval={dataInterval} highlight={true} />
           <Graph ticker={'raydium'} interval={dataInterval} />
-          <Graph ticker={'woof-token'} interval={dataInterval} highlight={true} />
-          <Graph ticker={'jet'} interval={dataInterval} />
           <Graph ticker={'step-finance'} interval={dataInterval} />
           <Graph ticker={'mango-markets'} interval={dataInterval} />
-          <Graph ticker={'larix'} interval={dataInterval} />
-          <Graph ticker={'cave'} interval={dataInterval}  />
         </div>
       </div>
     </>
