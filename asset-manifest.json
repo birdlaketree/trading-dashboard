@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/orca-token-list/static/css/main.0b393492.chunk.css",
-    "main.js": "/orca-token-list/static/js/main.5ccc0d29.chunk.js",
-    "main.js.map": "/orca-token-list/static/js/main.5ccc0d29.chunk.js.map",
+    "main.js": "/orca-token-list/static/js/main.55f8bb3c.chunk.js",
+    "main.js.map": "/orca-token-list/static/js/main.55f8bb3c.chunk.js.map",
     "runtime-main.js": "/orca-token-list/static/js/runtime-main.d9c8201d.js",
     "runtime-main.js.map": "/orca-token-list/static/js/runtime-main.d9c8201d.js.map",
-    "static/js/2.916cfe61.chunk.js": "/orca-token-list/static/js/2.916cfe61.chunk.js",
-    "static/js/2.916cfe61.chunk.js.map": "/orca-token-list/static/js/2.916cfe61.chunk.js.map",
+    "static/js/2.8897945a.chunk.js": "/orca-token-list/static/js/2.8897945a.chunk.js",
+    "static/js/2.8897945a.chunk.js.map": "/orca-token-list/static/js/2.8897945a.chunk.js.map",
     "static/js/3.fd902009.chunk.js": "/orca-token-list/static/js/3.fd902009.chunk.js",
     "static/js/3.fd902009.chunk.js.map": "/orca-token-list/static/js/3.fd902009.chunk.js.map",
     "index.html": "/orca-token-list/index.html",
     "static/css/main.0b393492.chunk.css.map": "/orca-token-list/static/css/main.0b393492.chunk.css.map",
-    "static/js/2.916cfe61.chunk.js.LICENSE.txt": "/orca-token-list/static/js/2.916cfe61.chunk.js.LICENSE.txt"
+    "static/js/2.8897945a.chunk.js.LICENSE.txt": "/orca-token-list/static/js/2.8897945a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d9c8201d.js",
-    "static/js/2.916cfe61.chunk.js",
+    "static/js/2.8897945a.chunk.js",
     "static/css/main.0b393492.chunk.css",
-    "static/js/main.5ccc0d29.chunk.js"
+    "static/js/main.55f8bb3c.chunk.js"
   ]
 }
