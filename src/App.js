@@ -75,18 +75,41 @@ const App = () => {
             </button>
           ))}
         </div>
-        {/* <p className="graph-group-name">FAV</p> */}
+        <p className="graph-group-name">MAIN L1</p>
         <div className="graphs">
           <Graph ticker={'bitcoin'} interval={dataInterval} />
           <Graph ticker={'ethereum'} interval={dataInterval} />
-          <Graph ticker={'solana'} interval={dataInterval} highlight={true} />
+          <Graph ticker={'solana'} interval={dataInterval} />
           <Graph ticker={'avalanche-2'} interval={dataInterval} />
-          <Graph ticker={'orca'} interval={dataInterval} highlight={true} />
-          <Graph ticker={'serum'} interval={dataInterval} />
-          <Graph ticker={'samoyedcoin'} interval={dataInterval} highlight={true} />
+          <Graph ticker={'terra-luna'} interval={dataInterval} />
+          <Graph ticker={'tezos'} interval={dataInterval} />
+        </div>
+        <p className="graph-group-name">SOL ECO</p>
+        <div className="graphs">
           <Graph ticker={'raydium'} interval={dataInterval} />
+          <Graph ticker={'serum'} interval={dataInterval} />
+          <Graph ticker={'orca'} interval={dataInterval} highlight={true} />
+          <Graph ticker={'samoyedcoin'} interval={dataInterval} />
           <Graph ticker={'step-finance'} interval={dataInterval} />
           <Graph ticker={'mango-markets'} interval={dataInterval} />
+        </div>
+        <p className="graph-group-name">ETH ECO</p>
+        <div className="graphs">
+          <Graph ticker={'aave'} interval={dataInterval} />
+          <Graph ticker={'sushi'} interval={dataInterval} />
+          <Graph ticker={'matic-network'} interval={dataInterval} />
+          <Graph ticker={'uniswap'} interval={dataInterval} />
+          <Graph ticker={'curve-dao-token'} interval={dataInterval} />
+          <Graph ticker={'chainlink'} interval={dataInterval} />
+        </div>
+        <p className="graph-group-name">BNB ECO</p>
+        <div className="graphs">
+          <Graph ticker={'binancecoin'} interval={dataInterval} />
+          <Graph ticker={'swipe'} interval={dataInterval} />
+          <Graph ticker={'pancakeswap-token'} interval={dataInterval} />
+          <Graph ticker={'bakerytoken'} interval={dataInterval} />
+          <Graph ticker={'superfarm'} interval={dataInterval} />
+          <Graph ticker={'force-protocol'} interval={dataInterval} />
         </div>
       </div>
     </>
