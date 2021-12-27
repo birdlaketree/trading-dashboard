@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trading-dashboard/static/css/main.9da2d428.chunk.css",
-    "main.js": "/trading-dashboard/static/js/main.5d5aefa8.chunk.js",
-    "main.js.map": "/trading-dashboard/static/js/main.5d5aefa8.chunk.js.map",
+    "main.js": "/trading-dashboard/static/js/main.ba6c3638.chunk.js",
+    "main.js.map": "/trading-dashboard/static/js/main.ba6c3638.chunk.js.map",
     "runtime-main.js": "/trading-dashboard/static/js/runtime-main.a738a8dc.js",
     "runtime-main.js.map": "/trading-dashboard/static/js/runtime-main.a738a8dc.js.map",
     "static/js/2.107381ae.chunk.js": "/trading-dashboard/static/js/2.107381ae.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a738a8dc.js",
     "static/js/2.107381ae.chunk.js",
     "static/css/main.9da2d428.chunk.css",
-    "static/js/main.5d5aefa8.chunk.js"
+    "static/js/main.ba6c3638.chunk.js"
   ]
 }
