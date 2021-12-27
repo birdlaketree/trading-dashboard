@@ -75,7 +75,7 @@ const Graph = ({ticker, interval, highlight=null}) => {
         {' H ' + info?.highestPrice + ' • L ' + info?.lowestPrice}
       </p>
       <p className="graph-details">
-        {'MC ' + info?.currentMC}<br/>
+        {'M ' + info?.currentMC}<br/>
         {'V ' + info?.currentVolume}
       </p>
       <div className="graph-holder">
