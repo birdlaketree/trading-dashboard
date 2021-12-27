@@ -13,7 +13,7 @@
     position: absolute;
     text-align: left;
     margin: 0px;
-    // padding: 1px 0px 0px 5px;
+    padding: 0px 0px 0px 3px;
     font-size: 13px;
     text-transform: uppercase;
     // font-weight: 600;
@@ -21,13 +21,26 @@
 
     .ticker {
       color: white;
-      padding: 0px 3px 0px 3px;
+      padding: 0px 0px 0px 0px;
     }
 
     .highlight {
       background-color: blue;
       color: white;
     }
+  }
+
+  .graph-details {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px 0px 0px 3px;
+    font-size: 13px;
+    text-transform: uppercase;
+    // font-weight: 600;
+    color: #888;
   }
 
   .graph-details-price-high {

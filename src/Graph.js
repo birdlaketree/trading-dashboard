@@ -43,19 +43,17 @@ const Graph = ({ticker, interval, highlight=null}) => {
         if (element[1] < lowestPrice) {
           lowestPrice = element[1];
         }
-        // console.log('+ element', element);
       });
 
       let i = {
         first: formatPrice(response.data.prices[0][1]),
         current: formatPrice(response.data.prices[response.data.prices.length - 1][1]),
         highestPrice: formatPrice(highestPrice),
-        lowestPrice: formatPrice(lowestPrice)
+        lowestPrice: formatPrice(lowestPrice),
+        currentMC: formatPrice(response.data.market_caps[response.data.market_caps.length - 1][1]),
+        currentVolume: formatPrice(response.data.total_volumes[response.data.total_volumes.length - 1][1]),
       }
       setInfo(i)
-
-      // console.log('response', response);
-      // console.log('+ i', i);
     });
   }
 
@@ -71,7 +69,15 @@ const Graph = ({ticker, interval, highlight=null}) => {
 
   return (
     <div className="graph">
-      <p className="graph-name"><span className={"ticker " + (highlight ? 'highlight' : '')}>{ticker}</span>{' ' + info?.current + ' • H ' + info?.highestPrice + ' • L ' + info?.lowestPrice}</p>
+      <p className="graph-name">
+        <span className={"ticker " + (highlight ? 'highlight' : '')}>{ticker}</span>
+        {' ' + info?.current}<br/>
+        {' H ' + info?.highestPrice + ' • L ' + info?.lowestPrice}
+      </p>
+      <p className="graph-details">
+        {'MC ' + info?.currentMC}<br/>
+        {'V ' + info?.currentVolume}
+      </p>
       <div className="graph-holder">
         {data && <VictoryLine
             style={{
