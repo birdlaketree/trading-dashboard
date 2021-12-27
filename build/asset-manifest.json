@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/orca-token-list/static/css/main.583be898.chunk.css",
-    "main.js": "/orca-token-list/static/js/main.423d27d2.chunk.js",
-    "main.js.map": "/orca-token-list/static/js/main.423d27d2.chunk.js.map",
-    "runtime-main.js": "/orca-token-list/static/js/runtime-main.d9c8201d.js",
-    "runtime-main.js.map": "/orca-token-list/static/js/runtime-main.d9c8201d.js.map",
-    "static/js/2.0d682b17.chunk.js": "/orca-token-list/static/js/2.0d682b17.chunk.js",
-    "static/js/2.0d682b17.chunk.js.map": "/orca-token-list/static/js/2.0d682b17.chunk.js.map",
-    "static/js/3.fd902009.chunk.js": "/orca-token-list/static/js/3.fd902009.chunk.js",
-    "static/js/3.fd902009.chunk.js.map": "/orca-token-list/static/js/3.fd902009.chunk.js.map",
-    "index.html": "/orca-token-list/index.html",
-    "static/css/main.583be898.chunk.css.map": "/orca-token-list/static/css/main.583be898.chunk.css.map",
-    "static/js/2.0d682b17.chunk.js.LICENSE.txt": "/orca-token-list/static/js/2.0d682b17.chunk.js.LICENSE.txt"
+    "main.css": "/trading-dashboard/static/css/main.583be898.chunk.css",
+    "main.js": "/trading-dashboard/static/js/main.eda98321.chunk.js",
+    "main.js.map": "/trading-dashboard/static/js/main.eda98321.chunk.js.map",
+    "runtime-main.js": "/trading-dashboard/static/js/runtime-main.a738a8dc.js",
+    "runtime-main.js.map": "/trading-dashboard/static/js/runtime-main.a738a8dc.js.map",
+    "static/js/2.107381ae.chunk.js": "/trading-dashboard/static/js/2.107381ae.chunk.js",
+    "static/js/2.107381ae.chunk.js.map": "/trading-dashboard/static/js/2.107381ae.chunk.js.map",
+    "static/js/3.a25be074.chunk.js": "/trading-dashboard/static/js/3.a25be074.chunk.js",
+    "static/js/3.a25be074.chunk.js.map": "/trading-dashboard/static/js/3.a25be074.chunk.js.map",
+    "index.html": "/trading-dashboard/index.html",
+    "static/css/main.583be898.chunk.css.map": "/trading-dashboard/static/css/main.583be898.chunk.css.map",
+    "static/js/2.107381ae.chunk.js.LICENSE.txt": "/trading-dashboard/static/js/2.107381ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9c8201d.js",
-    "static/js/2.0d682b17.chunk.js",
+    "static/js/runtime-main.a738a8dc.js",
+    "static/js/2.107381ae.chunk.js",
     "static/css/main.583be898.chunk.css",
-    "static/js/main.423d27d2.chunk.js"
+    "static/js/main.eda98321.chunk.js"
   ]
 }
