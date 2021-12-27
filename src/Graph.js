@@ -81,12 +81,12 @@ const Graph = ({ticker, interval, highlight=null}) => {
     <div className="graph">
       <p className="graph-name">
         <span className={"ticker " + (highlight ? 'highlight' : '')}>{ticker}</span>{' ' + info?.current}<br/>
-        {'H ' + info?.highestPrice}<br/>
-        {'L ' + info?.lowestPrice}
+        {'H ' + info?.highestPrice}
+        {' L ' + info?.lowestPrice}
       </p>
       <p className="graph-details">
-        {'M ' + info?.currentMC}<br/>
-        {'V ' + info?.currentVolume}
+        {'M ' + info?.currentMC}
+        {' V ' + info?.currentVolume}
       </p>
       <div className="graph-holder">
         {data && <VictoryLine
