@@ -46,6 +46,7 @@ const Graph = ({ticker, interval, highlight=null}) => {
       });
 
       let i = {
+        first: formatPrice(response.data.prices[0][1]),
         current: formatPrice(response.data.prices[response.data.prices.length - 1][1]),
         highestPrice: formatPrice(highestPrice),
         lowestPrice: formatPrice(lowestPrice),
@@ -53,6 +54,7 @@ const Graph = ({ticker, interval, highlight=null}) => {
         currentVolume: formatPriceLarge(response.data.total_volumes[response.data.total_volumes.length - 1][1]),
       }
       setInfo(i)
+      console.log('+++ first value', Number(i.first));
     });
   }
 
@@ -92,7 +94,7 @@ const Graph = ({ticker, interval, highlight=null}) => {
         {data && <VictoryLine
             style={{
               data: {
-                stroke: "#fff",
+                stroke: Number(info?.current) > Number(info?.first) ? "#c5ffc7" : "#e9c4ff",
                 strokeWidth: 2
               }
             }}
