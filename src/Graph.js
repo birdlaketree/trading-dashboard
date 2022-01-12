@@ -16,7 +16,7 @@ const Graph = ({ticker, interval, viewType, highlight=null}) => {
   const paddingHorizontal = 6;
   const paddingBottom = 6;
   const width = 428;
-  const height = 100;
+  const height = 140;
 
   useEffect(() => {
     if (interval !== activeInterval) {
@@ -95,7 +95,7 @@ const Graph = ({ticker, interval, viewType, highlight=null}) => {
     const formatConfig = new Intl.NumberFormat("en-US", {
       style: "decimal",
       notation: "compact",
-    compactDisplay: "short"
+      compactDisplay: "short"
     });
   
     return formatConfig.format(price);

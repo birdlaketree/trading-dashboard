@@ -105,6 +105,7 @@ const App = () => {
           <Graph ticker={'mango-markets'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'apricot'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'solfarm'} interval={dataInterval} viewType={viewType} />
+          <Graph ticker={'sunny-aggregator'} interval={dataInterval} viewType={viewType} />
           apricot
         </div>
         <p className="graph-group-name">ETH ECO</p>

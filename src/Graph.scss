@@ -1,6 +1,6 @@
 .graph {
   $graph-width: 100%;
-  $graph-height: 100px;
+  $graph-height: 140px;
 
   position: relative;
   margin: 0px;
@@ -98,7 +98,7 @@
 
     .VictoryContainer {
       svg {
-        // pointer-events: none !important;
+        pointer-events: none !important;
       }
     }
   }
