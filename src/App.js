@@ -28,6 +28,15 @@ const App = () => {
     {
       label: "6M",
       value: 180
+    },
+    {
+      label: "9M",
+      value: 270
+    }
+    ,
+    {
+      label: "12M",
+      value: 356
     }
   ];
 
