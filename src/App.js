@@ -109,13 +109,14 @@ const App = () => {
           <Graph ticker={'raydium'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'serum'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'orca'} interval={dataInterval} highlight={true} viewType={viewType} />
+          <Graph ticker={'solend'} interval={dataInterval} highlight={true} viewType={viewType} />
           <Graph ticker={'samoyedcoin'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'step-finance'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'mango-markets'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'apricot'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'solfarm'} interval={dataInterval} viewType={viewType} />
           <Graph ticker={'sunny-aggregator'} interval={dataInterval} viewType={viewType} />
-          apricot
+          <Graph ticker={'saber'} interval={dataInterval} viewType={viewType} />
         </div>
         <p className="graph-group-name">ETH ECO</p>
         <div className="graphs">
