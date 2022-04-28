@@ -11,4 +11,4 @@ npm run build
 npm run deploy
 ```
 
-https://birdlaketree.github.io/orca-token-list/
+https://birdlaketree.github.io/trading-dashboard/
